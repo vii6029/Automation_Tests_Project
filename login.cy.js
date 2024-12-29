@@ -27,7 +27,7 @@ describe('login', () => { //funcao que recebe dois parâmetros, o 1º é qual va
 })
    
     it('Assinar news', () =>{
-        //Para acessar só a home da aplicação
+        //Para acessar a home da aplicação
         cy.visit('/')
 
     })
