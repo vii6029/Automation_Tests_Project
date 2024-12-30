@@ -1,2 +1,2 @@
 # Automation_Tests_Project
-Projects using Frameworks for Automation Tests
+Projects using Frameworks Automation Tests
