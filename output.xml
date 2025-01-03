@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.6 on win32)" generated="2025-01-02T19:53:27.519290" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste" source="C:\Users\Vinícius Morais\Documents\ProjetosQA\BootcampRobotFramework\teste.robot">
+<test id="s1-t1" name="Assert: Login successful" line="33">
+<kw name="Acess qazando site">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-02T19:53:28.270018" level="INFO">Opening browser 'chrome' to base url 'https://automationpratice.com.br/'.</msg>
+<msg time="2025-01-02T19:53:30.153711" level="WARN">Metadata cannot be written in cache (C:\Users\Vinícius Morais\.cache\selenium): Acesso negado. (os error 5)</msg>
+<msg time="2025-01-02T19:53:30.155742" level="WARN">Metadata cannot be written in cache (C:\Users\Vinícius Morais\.cache\selenium): Acesso negado. (os error 5)</msg>
+<arg>${SITE_QAZANDO}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-02T19:53:28.268042" elapsed="11.741074"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:53:28.267046" elapsed="11.743121"/>
+</kw>
+<kw name="Wait site loading">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-02T19:53:48.012599" level="INFO">Slept 8 seconds.</msg>
+<arg>8s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-02T19:53:40.011117" elapsed="8.001482"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:53:40.011117" elapsed="8.001482"/>
+</kw>
+<kw name="Click login option">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-02T19:53:48.014722" level="INFO">Clicking element 'xpath://a[@href='/login']'.</msg>
+<arg>xpath://a[@href='/login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-02T19:53:48.013622" elapsed="0.264794"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:53:48.013622" elapsed="0.264794"/>
+</kw>
+<kw name="Wait site loading">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-02T19:53:56.282666" level="INFO">Slept 8 seconds.</msg>
+<arg>8s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-02T19:53:48.280401" elapsed="8.002265"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:53:48.279397" elapsed="8.003269"/>
+</kw>
+<kw name="Type email">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-02T19:53:56.283803" level="INFO">Typing text 'qazando@gmail.com' into text field 'id:user'.</msg>
+<arg>id:user</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-02T19:53:56.283803" elapsed="0.284013"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:53:56.283803" elapsed="0.284013"/>
+</kw>
+<kw name="Wait typing">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-02T19:54:00.572184" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-02T19:53:56.570817" elapsed="4.001367"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:53:56.569815" elapsed="4.002369"/>
+</kw>
+<kw name="Type Password">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-02T19:54:00.574239" level="INFO">Typing text '123456' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-02T19:54:00.574239" elapsed="0.323863"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:54:00.574239" elapsed="0.323863"/>
+</kw>
+<kw name="Wait typing">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-02T19:54:04.899414" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-02T19:54:00.899104" elapsed="4.000310"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:54:00.899104" elapsed="4.000813"/>
+</kw>
+<kw name="Click login">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-02T19:54:04.899917" level="INFO">Clicking element 'id:btnLogin'.</msg>
+<arg>id:btnLogin</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-02T19:54:04.899917" elapsed="0.213128"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:54:04.899917" elapsed="0.213128"/>
+</kw>
+<kw name="Wait site loading">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-02T19:54:13.115281" level="INFO">Slept 8 seconds.</msg>
+<arg>8s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-02T19:54:05.114052" elapsed="8.001229"/>
+</kw>
+<status status="PASS" start="2025-01-02T19:54:05.114052" elapsed="8.001229"/>
+</kw>
+<tag>Regressive</tag>
+<status status="PASS" start="2025-01-02T19:53:28.266018" elapsed="44.849263"/>
+</test>
+<status status="PASS" start="2025-01-02T19:53:27.523329" elapsed="45.596136"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Regressive</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Teste">Teste</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-01-02T19:53:30.153711" level="WARN">Metadata cannot be written in cache (C:\Users\Vinícius Morais\.cache\selenium): Acesso negado. (os error 5)</msg>
+<msg time="2025-01-02T19:53:30.155742" level="WARN">Metadata cannot be written in cache (C:\Users\Vinícius Morais\.cache\selenium): Acesso negado. (os error 5)</msg>
+</errors>
+</robot>
